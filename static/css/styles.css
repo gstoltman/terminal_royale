@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+
+.title-format {
+    font-family: 'Courier New', monospace;
+    font-size: 14;
+    text-align: center;
+}
+
+pre {
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.left-column, .right-column {
+    flex: 1; /* Each column takes up equal space */
+    padding: 0px; /* Optional padding */
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Optional: additional styling for the columns */
+.left-column {
+    background-color: rgb(0, 58, 77);
+    min-height: 100vh;
+}
+
+.right-column {
+    background-color: rgb(0, 59, 0);
+    min-height: 100vh;
+}
