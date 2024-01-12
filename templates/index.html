@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1 class="title-format">
-        <pre>
+        <pre class="page-header">
  ______                     _                __        ___                      __     
 /_  __/ ___   ____  __ _   (_)  ___  ___ _  / /       / _ \ ___   __ __ ___ _  / / ___ 
  / /   / -_) / __/ /  ' \ / /  / _ \/ _ `/ / /       / , _// _ \ / // // _ `/ / / / -_)
@@ -19,11 +19,33 @@
             <h2 class="nav-link">
                 <a href="fontbattle">Font Battle</a>
             </h2>
+            <pre class="code-block"><code>
+            class Solution:
+                def bubble_sort(self, nums: List[int]) -> None:
+                    for i in range(len(nums)):
+                        for j in range(len(nums)-1):
+                            val1, val2 = nums[j], nums[j+1]
+            
+                            if val1 > val2:
+                                nums[j] = val2
+                                nums[j+1] = val1
+            </code></pre>                
         </div>
         <div class="right-column">
             <h2 class="nav-link">
                 <a href="themebattle">Theme Battle</a>
             </h2>
+            <pre class="code-block"><code>
+            class Solution:
+                def bubble_sort(self, nums: List[int]) -> None:
+                    for i in range(len(nums)):
+                        for j in range(len(nums)-1):
+                            val1, val2 = nums[j], nums[j+1]
+            
+                            if val1 > val2:
+                                nums[j] = val2
+                                nums[j+1] = val1
+            </code></pre>
         </div>
     </div>
 </body>

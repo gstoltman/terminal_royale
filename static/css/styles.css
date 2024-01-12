@@ -9,8 +9,8 @@ body {
     text-align: center;
 }
 
-pre {
-    font-size: 14px;
+.page-header {
+    font-size: 16px;
 }
 
 .container {
@@ -21,8 +21,12 @@ pre {
 .left-column, .right-column {
     flex: 1; /* Each column takes up equal space */
     padding: 0px; /* Optional padding */
-    text-align: center;
-    font-size: 30px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.code-block {
+    font-size: 18px;
 }
 
 /* Optional: additional styling for the columns */
